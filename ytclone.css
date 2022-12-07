@@ -136,7 +136,7 @@
 #searchbar {
     align-self: center;
     height: 35px;
-    width: 100px;
+    width: 400px;
 
     padding: 15px;
     margin-left: 2px;
@@ -161,8 +161,8 @@
 #searchicon {
     cursor: pointer;
     font-size: 18px;
-    padding: 6px 15px 6px 15px;
-    margin-top: 4px;
+    padding: 7px 15px 7px 15px;
+    margin-top: 0px;
     align-self: center;
     color: var(--themeopocol);
 
