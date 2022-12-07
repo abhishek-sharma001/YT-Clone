@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube Clone</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+    
+    <link rel="stylesheet" href="ytclone.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+
+<body>
+    <script>
+        let logo = document.getElementById('lo');
+        function ytopen() {
+            if (confirm("Redirecting you to YouTube")) {
+                window.open("https://youtube.com")
+            }
+
+        }
+
+        function ytopensearch() {
+            var val = document.getElementById('searchbar').value;
+            window.open("https://www.youtube.com/results?search_query=" + val)
+
+        }
+
+    </script>
+
+
+
+    <div class="page">
+        <!-- NAVBAR -->
+
+        <input type="checkbox" name="" id="checkinp">
+        <label for="checkinp" class="labelbar">
+            <i class="fa-solid fa-bars" id="bar"></i>
+            <i class="fa-solid fa-xmark " id="cross"></i>
+        </label>
+
+
+        <div class="nav">
+            <div class="lbox">
+                <i href="https://youtube.com" onclick="ytopen();" class="fa-brands fa-youtube" id="yticon"></i>
+
+                <label for="l" class="logo" id="lo" onclick="ytopen();">YouTube</label>
+            </div>
+
+            <form action="#" id="searchbox">
+                <input type="text" autocomplete="off" onchange="ytopensearch();" placeholder="Search" id="searchbar">
+                <label for="seachbar" id="searchl">
+                    <i class="fas fa-search" onclick="ytopensearch();" id="searchicon"></i>
+                </label>
+                <i class="fas fa-microphone" id="mic"></i>
+            </form>
+
+            <div class="rbox">
+
+                <!-- <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                  </label> -->
+
+                <i class="fa-solid fa-video" id="vid"></i>
+                <i class="fa-regular fa-bell" id="bell"></i>
+                <i class="fa-solid fa-circle-user" id="circle"></i>
+            </div>
+        </div>
+
+
+        <!-- SIDEBAR -->
+
+
+        <div class="sidebar">
+
+            <div class="collapsedbar">
+                <a href="#" class="top"><i class="fa-solid fa-house"></i></a>
+                <a href="#"><i class="fa-regular fa-circle-play"></i></a>
+                <a href="#" class="bottom"><i class="fa-regular fa-thumbs-up"></i></a>
+
+
+                <hr>
+
+                <a href="#" class="music"><i class="fa-solid fa-music"></i></a>
+                <a href="#"><i class="fa-solid fa-film"></i></a>
+                <a href="#"><i class="fa-regular fa-newspaper"></i></a>
+                <a href="#"><i class="fa-solid fa-futbol"></i></a>
+                <a href="#"><i class="fa-solid fa-fire"></i></a>
+                <a href="#" class="bottom"><i class="fa-solid fa-clock-rotate-left"></i></a>
+
+
+                <hr>
+
+                <a href="#" class="setting"><i class="fa-solid fa-gear"></i></a>
+                <a href="#"><i class="fa-regular fa-font-awesome"></i></a>
+                <a href="#"><i class="fa-regular fa-comment-dots"></i></a>
+                <a href="#"><i class="fa-regular fa-circle-question"></i></a>
+
+
+            </div>
+            <div class="openbar">
+
+                <a href="#" class="top"><span>Home</span></a>
+                <a href="#"><span>Shorts</span></a>
+                <a href="#" class="bottom"><span>Liked videos</span></a>
+
+
+                <hr class="openhr">
+
+                <a href="#" class="music"><span>Music</span></a>
+                <a href="#"><span>Film</span></a>
+                <a href="#"><span>News</span></a>
+                <a href="#"><span>Gaming</span></a>
+                <a href="#"><span>Trending</span></a>
+                <a href="#" class="bottom"><span>Watch Later</span></a>
+
+                <hr class="openhr">
+
+                <a href="#" class="setting"><span>Settings</span></a>
+                <a href="#"><span>Report</span></a>
+                <a href="#"><span>Feedback</span></a>
+                <a href="#"><span>Help</span></a>
+
+            </div>
+        </div>
+
+        <div class="contarea">
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+            <div class="post">
+                <img src="ytimg.jpg" alt="" class="thumn">
+                <p class="title">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia eaque consequatur at.</p>
+            </div>
+
+
+
+        </div>
+        <!-- <i class="fa fa-spinner fa-spin" id="loading"></i> -->
+
+
+
+
+
+    </div>
+
+    <div class="subnav">
+
+    </div>
+
+    </div>
+</body>
+
+</html>
