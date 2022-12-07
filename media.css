@@ -1,0 +1,108 @@
+@media (max-width:700px) {
+
+    #searchbar {
+        align-self: center;
+        height: 35px;
+        width: 150px;
+
+        padding: 15px;
+        margin-left: 2px;
+
+        border: 2px solid black;
+        border-right: 0px;
+        border-radius: 50px;
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+
+        font-size: 18px;
+
+        /* text-align: center; */
+
+    }
+
+    .lbox {
+        margin: 0px 2px;
+    }
+
+    .labelbar {
+        display: none;
+    }
+
+    .rbox {
+        display: none;
+    }
+
+    .logo {
+        display: none;
+
+    }
+
+
+
+
+    .sidebar .collapsedbar {
+        height: auto;
+
+        overflow: auto;
+        position: fixed;
+        bottom: 0;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+
+
+
+
+
+    .sidebar .openbar {
+        display: none;
+    }
+
+    .sidebar a.top {
+        margin-top: 0px;
+    }
+
+
+    .page .contarea {
+        left: 0px;
+        width: 100%;
+        position: static;
+    }
+
+    .page .contarea .title {
+        padding: 2px auto;
+        font-size: 16px;
+        text-align: center;
+    }
+
+    .contarea .post {
+        margin: 5px 0px;
+        border-bottom: 1px solid rgb(93, 90, 90);
+        width: 100vw;
+        padding: 5px 0px 20px 0px;
+
+    }
+
+
+    .contarea .post .thumn {
+        border-radius: 15px;
+        margin: 0px auto;
+        height: 150px;
+        width: 95vw;
+
+
+    }
+
+    #searchicon {
+        padding: 7px 15px 7px 15px;
+        margin-top: 0px;
+    }
+    #mic{
+        margin:0px 5px;
+    }
+}
+
+
+@media (min-width:700px) and (max-width:985px) {}
